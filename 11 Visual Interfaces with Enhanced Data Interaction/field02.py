@@ -1,6 +1,4 @@
 import tkinter as tk
-from tkinter import filedialog # import modul filedialog untuk dialog file
-from tkinter import messagebox # import modul messagebox untuk menampilkan pesan
 
 def save_note():
   text_content = text_box.get("1.0", tk.END) # mengambil teks dari text widget

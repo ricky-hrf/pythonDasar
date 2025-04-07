@@ -1,8 +1,4 @@
 import tkinter as tk
-def submit_data():
-  input_text = entry.get() # mengambil teks dari entry
-  label_output.config(text=f"Anda mengetik: {input_text}") # menampilkan teks yang dimasukkan di label_output
-  entry.delete(0, tk.END) # menghapus teks di entry setelah submit
 
 root = tk.Tk() # membuat jendela utama
 root.title("Form Input") # memberi judul pada jendela
@@ -36,6 +32,11 @@ btn_submit = tk.Button(
   fg="white",
 )
 btn_submit.pack(pady=10) # menampilkan tombol di jendela
+
+def submit_data():
+  input_text = entry.get() # mengambil teks dari entry
+  label_output.config(text=f"Anda mengetik: {input_text}") # menampilkan teks yang dimasukkan di label_output
+  entry.delete(0, tk.END) # menghapus teks di entry setelah submit
 
 label_output = tk.Label( root, text="", font=("Arial", 12)) # label untuk menampilkan output
 label_output.pack() # menampilkan label output di jendela
