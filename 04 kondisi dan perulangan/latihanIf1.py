@@ -24,6 +24,7 @@
 #   print("nilai yang andan masukkan adalah: ", x, "hasilnya D")
 # else:
 #   print("Tidak bisa ditebak")
+print("======Aplikasi Mengecek Tahun Kabisat atau Tidak===========")
 tahun = int(input("Masukkan tahun yang ingin anda caritau: cth:2024...."))
 if (tahun % 400 ==0) or (tahun % 100 != 0 and tahun % 4 == 0) :
   print(tahun, "Adalah tahun kabisat")
