@@ -22,8 +22,16 @@ print("===menghitung total===")
 total = 0
 for angka in range (1, 11):
   total += angka
-  print("Total: ", total)
+  print("Total: ", angka, total)
 
-  print("___SEGITIGA BINTANG___")
-  for a in range(1, 6):  
-    print("*" * a)
+print("___SEGITIGA BINTANG___")
+for a in range(1, 6):  
+  print("*" * a)
+
+print("___SEGITIGA BINTANG TERBALIK___")
+for a in range(5, 0, -1):  
+  print("*" * a)
+print("___SEGITIGA BINTANG TERBALIK___")
+for a in range(9, 0, -1):  
+  print("*"*a)
+
