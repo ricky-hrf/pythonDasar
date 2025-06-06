@@ -8,3 +8,15 @@ while True:
 print("Data yang dimasukkan:")
 for item in data:
     print("-", item)
+
+
+print("========== MENGHITUNG TOTAL DATA DALAM LIST ==========")
+himpunan = [7, 23, 5, 8]
+count = len(himpunan)
+print("Jumlah Eleman dalam list:", count)
+
+print("========== MENGHITUNG ELEMEN TERTENTU DENGAN COUNT DALAM LIST ==========")
+
+list = [1, 2, 2, 3, 4, 6]
+count = list.count(5)
+print("Jumlah elemen 2 dalam list: ", count)
