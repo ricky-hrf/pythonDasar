@@ -15,3 +15,6 @@ print("===== menambahkan list lain sebagai elemen =====")
 hewan.append(bilangan)
 print(hewan)
 
+print("===== Method extend (menambahkan beberapa elemen di akhir list) =====")
+hewan.extend(bilangan)
+print(hewan)
