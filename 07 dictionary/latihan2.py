@@ -64,5 +64,3 @@ while True:
     break
   else:
     print("pilihan tidak valid")
-
-

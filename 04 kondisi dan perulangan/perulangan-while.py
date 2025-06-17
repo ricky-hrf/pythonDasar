@@ -11,10 +11,15 @@ while i <= 5:
     i += 1  # Increment (menaikkan nilai i)
 
 print("\n___CONTOH KETIGA___")
-password = ""
-while password != "12345":
-    password = input("Masukkan password: ")
-
+username = "admin"
+password = "12345"
+print("Masukkan username dan password untuk akses")
+inputusername = input("Masukkan username: ")
+inputpassword = input("Masukkan password: ")
+while inputusername != "admin" and inputpassword != "12345":
+    print("Username atau password salah. Silakan coba lagi.")
+    inputusername = input("Masukkan username: ")
+    inputpassword = input("Masukkan password: ")
 print("Akses diberikan!")
 
 print("___SEGITIGA BINTANG___")
