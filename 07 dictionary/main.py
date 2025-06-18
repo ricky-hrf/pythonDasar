@@ -48,3 +48,5 @@ print(f"Data mahasiswa setelah dihapus: {mahasiswa}")
 keys = mahasiswa.keys()
 print(f"Semua key: {keys}")
 
+# menggunakan method value
+

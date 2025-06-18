@@ -19,4 +19,4 @@ print("========== MENGHITUNG ELEMEN TERTENTU DENGAN COUNT DALAM LIST =========="
 
 list = [1, 2, 2, 3, 4, 6]
 count = list.count(5)
-print("Jumlah elemen 2 dalam list: ", count)
+print("Jumlah elemen 5 dalam list: ", count)
