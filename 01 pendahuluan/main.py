@@ -87,3 +87,8 @@ print(p)
 q = "12345"
 q = q.isdigit()
 print(q)
+
+# penggunaan count
+r = "kalimat ini adalah oke mantap oke lalu oke"
+s=r.count("oke")
+print(s)
