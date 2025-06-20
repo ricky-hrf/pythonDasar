@@ -49,4 +49,36 @@ keys = mahasiswa.keys()
 print(f"Semua key: {keys}")
 
 # menggunakan method value
+values = mahasiswa.values()
+print("Semuan values", values)
 
+data_lagu = {
+  "pop": {
+    "judul": "Bongkar",
+    "vokalis":"iwan fals"
+    },
+  "jazz": {
+    "judul": "kurang tau bang",
+    "vakalis": "orang lah, gak mungkin batu"
+  }
+}
+
+kunci_dict = data_lagu.keys()
+isi_dict = data_lagu.values()
+print(kunci_dict)
+print(isi_dict)
+print(data_lagu["jazz"]["judul"])
+print(data_lagu["pop"])
+
+for kunci in data_lagu.keys():
+  print(kunci)
+
+for isi in data_lagu.values():
+  print(isi)
+
+for kunci, isi in data_lagu.items():
+  print(f"{kunci}:{isi}")
+
+# contoh penggunaan fungsi del di dict
+del data_lagu["pop"]
+print(data_lagu)
