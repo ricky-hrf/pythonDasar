@@ -46,8 +46,8 @@ hewan_terfavorit(hewan_favorit)
 def hewan_terfavorit_input():
     hewan = []
     while True:
-        h = input("Masukkan hewan favorit (atau 'selesai' untuk mengakhiri): ")
-        if h.lower() == 'selesai':
+        h = input("Masukkan hewan favorit (atau 'selesai' untuk mengakhiri): ").upper()
+        if h == 'SELESAI':
             break
         hewan.append(h)
     print("Hewan-hewan favorit Anda:")
@@ -59,8 +59,8 @@ hewan_terfavorit_input()
 def hewan_terfavorit_input_cara_kedua():
     hewan = []
     while True:
-        h = input("Masukkan hewan favorit (atau 'selesai' untuk mengakhiri): ")
-        if h.lower() == 'selesai':
+        h = input("Masukkan hewan favorit (atau 'selesai' untuk mengakhiri): ").upper()
+        if h == 'SELESAI':
             break
         hewan.append(h)
     hewan_terfavorit(hewan)
