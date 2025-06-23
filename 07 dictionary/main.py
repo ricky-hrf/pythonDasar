@@ -27,6 +27,13 @@ print(mahasiswa)
 mahasiswa["ipk"] = 3.8 #update nilai ipk
 print(mahasiswa)
 
+# update menggunakan method update()
+mahasiswa.update({"nama": "Budi", "umur": 22})
+
+# update keys
+mahasiswa.update(nama="Siti", prodi="Sistem Informasi")
+print(mahasiswa)
+
 #menghapus elemen menggunakan del
 del mahasiswa["umur"]
 print(mahasiswa)
