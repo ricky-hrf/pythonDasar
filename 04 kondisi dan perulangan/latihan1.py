@@ -2,7 +2,6 @@ print("=====MENENTUKAN BILANGAN PRIMA=====")
 # Meminta input angka dari pengguna
 angka = int(input("Masukkan angka: "))
 
-# Cek apakah bilangan prima atau bukan
 if angka > 1:
     for i in range(2, angka):
         if angka % i == 0:
