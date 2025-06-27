@@ -1,11 +1,11 @@
 # class dan object
 class Mobil:
-  def __init__(self, merk, warna):
-    self.merk = merk
-    self.warna = warna
+    def __init__(self, merk, warna):
+        self.merk = merk
+        self.warna = warna
 
-  def info(self):
-      return f"Mobil {self.merk} berwarna {self.warna}"
+    def info(self):
+        return f"Mobil {self.merk} berwarna {self.warna}"
     
 #membuat object dari class
 Mobil1 = Mobil("TOYOTA", "Merah")
