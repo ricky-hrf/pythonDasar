@@ -8,3 +8,15 @@ data_siswa = {
 }
 data = len(data_siswa)
 print(data)
+
+# menambahkan data ke dalam dictionary dengan menerima inputan
+while True:
+  key = input("Masukkan key: ").upper()
+  if key == "STOP":
+    break
+  value = input(f"Masukkan value untuk key {key}: ").capitalize()
+  data_siswa.update({key:value})
+  print(f"data dengan key {key} berhasil ditambahkan")
+for keys, values in data_siswa.items():
+  print(f"{keys}:{values}")
+
