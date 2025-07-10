@@ -6,12 +6,16 @@ def login(username, password, confirm):
     if confirm == "1":
         print("anda keluar dari aplikasi")
     else:
-        while username != username_a or password != password_a:
-            print("username/password salah, silahkan coba lagi\n")
-            username = input("masukkan username: ")
-            password = input("Masukkan Password: ")
-            confirm = input("yakin ingin masuk (ketik 1 untuk berhenti)?")
-        print("SELAMAT DATANG DI APLIKASI PYTHON KAMI")
+        for i in range(3):
+            if username == username_a and password == password_a:
+                print("Login berhasil!")
+                print("SELAMAT DATANG DI APLIKASI PYTHON KAMI")
+                break
+            else:
+                print("username/password salah, silahkan coba lagi")
+                username = input("masukkan username: ")
+                password = input("Masukkan Password: ")
+                confirm = input("yakin ingin masuk (ketik 1 untuk berhenti)?")
         
 iusername = input("Masukkan username: ")
 ipassword = input("Masukkan password: ")
