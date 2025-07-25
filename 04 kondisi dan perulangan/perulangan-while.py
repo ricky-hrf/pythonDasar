@@ -181,3 +181,12 @@ while len(deret_geometri) < angka:
     deret_geometri.append(suku)
     suku *= rasio
 print("Deret Geometri:", deret_geometri)
+
+# membuat urutan angak 1 -20 dengan while dan angka 10 dilompati
+angka = 1
+while angka <= 20:
+    if angka == 10:
+        angka += 1
+        continue  # Melewati angka 10
+    print(angka)
+    angka += 1
