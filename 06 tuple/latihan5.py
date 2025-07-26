@@ -1,3 +1,6 @@
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+
 DataBarang = (("Beras", 10000), ("Gula", 12000), ("Minyak Goreng", 15000))
 searchProduk = input("Masukkan nama produk yang ingin dicari: ")
 # found = False
@@ -8,4 +11,4 @@ for barang, harga in DataBarang:
         # found = True
 # if not found:
 else:
-    print("Produk tidak ditemukan.")
+    print(f"Produk {searchProduk} tidak ditemukan.")
